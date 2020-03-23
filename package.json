@@ -1,25 +1,24 @@
 {
-  "name": "contact-keeper",
+  "name": "contact_keeper",
   "version": "1.0.0",
-  "description": "Contact Manager app",
-  "main": "Server.js",
+  "description": "Contact Keeper app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
     "server": "nodemon server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Prashanth",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.3.0",
-    "express": "^4.17.1",
-    "express-validator": "^6.4.0",
+    "config": "^3.1.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.5"
+    "mongoose": "^5.5.8"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0",
-    "nodemon": "^2.0.2"
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.0"
   }
 }
