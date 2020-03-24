@@ -4,8 +4,11 @@
   "description": "Contact Keeper app",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "server": "nodemon server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientimstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Prashanth",
   "license": "MIT",
@@ -19,6 +22,6 @@
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "nodemon": "^1.19.0"
+    "nodemon": "^2.0.2"
   }
 }
